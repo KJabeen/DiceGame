@@ -72,8 +72,7 @@ img {
   font-weight: bold;
   color: whitesmoke;
   box-shadow: 5px 5px 10px #232931;
-  position: absolute;
-  bottom: 100px;
+
   
 }
 .btn1:hover{
@@ -81,6 +80,9 @@ img {
   background-color: rgb(192, 19, 19);
   font-size: 1rem;
   
+}
+.invisible{
+  visibility: hidden;
 }
 .btn2{
   padding: 0.9rem;
@@ -90,8 +92,7 @@ img {
   font-weight: bold;
   color: whitesmoke;
   box-shadow: 5px 5px 10px #232931;
-  position: absolute;
-  bottom: 100px;
+
 }
 .btn2:hover{
   font-stretch: expanded;
