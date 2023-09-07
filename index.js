@@ -8,11 +8,15 @@ var randomDiceImage2 = "dice" + randomNumber2 + ".png";
 document.querySelector(".btn1").addEventListener("click", function () {
 
 document.querySelectorAll("img")[0].setAttribute("src", randomDiceImage1); 
+    document.querySelectorAll("button")[0].classList.add("invisible");
 });
 
 document.querySelector(".btn2").addEventListener("click", function () {
 
     document.querySelectorAll("img")[1].setAttribute("src", randomDiceImage2); 
+    
+    document.querySelectorAll("button")[1].classList.add("invisible");
+    
     if(randomNumber1 > randomNumber2)
     {
         document.querySelector(".container h1").innerHTML = " 	&#128681Player1 won!";
